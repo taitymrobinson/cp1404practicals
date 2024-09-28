@@ -3,12 +3,14 @@ CP1404 - PRACTICAL
 """
 from random import randint
 
+
 def main():
     """Determine the result based on score. """
     score = float(input("Enter score: "))
     result = determine_result(score)
     print(result)
-
+    random_score = randint(0, 100)
+    print(f"Your score is {random_score} and your result is {determine_result(random_score)}")
 
 def determine_result(score):
     """Determine the result based on score. """
@@ -20,7 +22,6 @@ def determine_result(score):
         return "Pass"
     else:
         return "Bad"
-
 
 
 main()
