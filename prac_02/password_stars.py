@@ -1,3 +1,6 @@
+"""
+CP1404 - Practical
+"""
 def main():
     """Print asterisks same length as inputted password, that is longer than minimum length"""
     minimum_length = 6
