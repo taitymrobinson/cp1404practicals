@@ -4,7 +4,7 @@ CP1404 - PRACTICAL
 
 
 def main():
-    """Get valid score from user, print corresponding result, print stars equal to score. """
+    """Get valid score from user, print corresponding result, print stars equal to score."""
     score = get_valid_score(0, 100)
     print("""
 (G)et a valid score
@@ -44,7 +44,7 @@ def get_valid_score(upper, lower):
 
 
 def determine_result(score):
-    """Determine the result based on score. """
+    """Determine the result based on score."""
     if score >= 90:
         return "Excellent"
     elif score >= 50:
@@ -54,7 +54,7 @@ def determine_result(score):
 
 
 def print_stars(score):
-    """Print asterisks equal to score. """
+    """Print asterisks equal to score."""
     print("*" * score)
 
 
