@@ -14,3 +14,6 @@
 # A random float between 2.5 and 5.5
 # What was the smallest number you could have seen, what was the largest?
 # The smallest is 2.5 and the largest is 5.5
+
+from random import randint
+print(randint(1, 100))
