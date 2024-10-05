@@ -9,13 +9,25 @@ Answer the following questions:
     Have a get valid number function
 """
 
-try:
-    numerator = int(input("Enter the numerator: "))
-    denominator = int(input("Enter the denominator: "))
-    fraction = numerator / denominator
-    print(fraction)
-except ValueError:
-    print("Numerator and denominator must be valid numbers!")
-except ZeroDivisionError:
-    print("Cannot divide by zero!")
-print("Finished.")
+def main():
+    """A program to calculate a fraction"""
+    try:
+        numerator = int(input("Enter the numerator: "))
+        denominator = get_valid_number("Enter a denominator: ")
+        fraction = numerator / denominator
+        print(fraction)
+    except ValueError:
+        print("Numerator and denominator must be valid numbers!")
+    except ZeroDivisionError:
+        print("Cannot divide by zero!")
+    print("Finished.")
+
+
+def get_valid_number(prompt):
+    number = int(input(prompt))
+    while number == 0:
+        print("Cannot divide by zero!")
+        number = int(input(prompt))
+    return number
+
+main()
