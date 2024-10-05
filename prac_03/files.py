@@ -13,3 +13,8 @@ for name in in_file:
 in_file.close()
 
 # Question 3
+FILENAME = "numbers.txt"
+with open(FILENAME, "r") as in_file:
+    number1 = int(in_file.readline())
+    number2 = int(in_file.readline())
+    print(number1 + number2)
