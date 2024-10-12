@@ -12,6 +12,9 @@ def main():
     for quick_pick in range(number_of_quick_picks):
         quick_pick_line = []
         for number in range(NUMBERS_PER_LINE):
-            quick_pick_line.append(random.randint(MINIMUM, MAXIMUM))
+            number = random.randint(MINIMUM, MAXIMUM)
+            while number in quick_pick_line:
+                number = random.randint(MINIMUM, MAXIMUM)
+            quick_pick_line.append(number)
         print(" ".join(f"{number:5}" for number in quick_pick_line))
 main()
