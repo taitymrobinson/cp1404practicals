@@ -9,6 +9,7 @@ FILENAME = "subject_data.txt"
 def main():
     data = load_data()
     print(data)
+    format_data(data)
 
 
 def load_data():
@@ -27,5 +28,12 @@ def load_data():
         data.append(parts)
     input_file.close()
     return data
+
+
+def format_data(data):
+    """Converts data into a human-readable string."""
+    for item in data:
+        print(f"{item[0]} is taught by {item[1]} and has {item[2]} students.")
+
 
 main()
