@@ -7,13 +7,14 @@ FILENAME = "subject_data.txt"
 
 
 def main():
+    """A program to modify given data, making it readable."""
     data = load_data()
     print(data)
     format_data(data)
 
 
-def load_data():
-    """Read data from file formatted like: subject,lecturer,number of students."""
+def load_data(): # Instructions were to update existing function
+    """Returns data from file formatted like: subject,lecturer,number of students."""
     input_file = open(FILENAME)
     data = []
     for line in input_file:
