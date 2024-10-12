@@ -10,3 +10,8 @@ numbers[3:4] ([1]) CORRECT
 "3" in numbers (False) CORRECT
 numbers + [6, 5, 3] ([3, 1, 4, 1, 5, 9, 2, 6, 5, 3]) CORRECT
 """
+
+numbers[0] = "ten"
+numbers[-1] = 1
+print(list(numbers[2:]))
+print(f"{9 in numbers}")
