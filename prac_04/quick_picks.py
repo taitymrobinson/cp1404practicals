@@ -13,6 +13,5 @@ def main():
         quick_pick_line = []
         for number in range(NUMBERS_PER_LINE):
             quick_pick_line.append(random.randint(MINIMUM, MAXIMUM))
-        print(quick_pick_line)
-
+        print(" ".join(f"{number:5}" for number in quick_pick_line))
 main()
