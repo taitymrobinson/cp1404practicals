@@ -3,7 +3,7 @@ NUMBER_OF_REPETITIONS_ALLOWED = 5
 repetition_counter = 0
 numbers = []
 while repetition_counter < NUMBER_OF_REPETITIONS_ALLOWED:
-    number = float(input("Number: "))
+    number = int(input("Number: "))
     numbers.append(number)
     repetition_counter += 1
 
