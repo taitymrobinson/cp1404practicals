@@ -14,4 +14,4 @@ for word in text.split():
 
 max_length = max(len(word) for word in list(word_to_occurrence.keys()))
 for word, occurrences in sorted(word_to_occurrence.items()):
-    print(f"{word:{max_length}}: {occurrences}")
+    print(f"{word:{max_length}} : {occurrences}")
