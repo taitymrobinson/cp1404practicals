@@ -4,6 +4,7 @@ Word Occurrences
 Estimate: 25 minutes
 Actual: 23 minutes
 """
+
 word_to_occurrence = {}
 text = input("Text: ")
 for word in text.split():
