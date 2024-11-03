@@ -2,6 +2,7 @@
 CP1404 PRAC 05
 Wimbledon exercise
 """
+
 FILENAME = "wimbledon.csv"
 COUNTRY_INDEX = 1
 CHAMPION_INDEX = 2

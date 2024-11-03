@@ -2,6 +2,7 @@
 CP1404 - PRAC 05
 Colour Lookup
 """
+
 COLOUR_TO_CODE = {"Harlequin": "#3fff00", "Mauvelous": "#ef98aa", "Zomp:": "#39a78e", "Wild Strawberry": "#ff43a4",
                   "Vermillion": "#e34234", "Sapphire": "#0f52ba", "Rose Bonbon": "#f9429e", "Pistachio": "#93c572",
                   "Peach": "#ffe5b4", "Mandarin": "#f37a48"}
