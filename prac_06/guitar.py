@@ -1,7 +1,7 @@
 """
 CP1404 - PRAC 06
-Estimate (all parts): 45 mins 7:45
-Actual:
+Estimate (all parts): 45 mins
+Actual: 40 mins
 """
 
 CURRENT_YEAR = 2024
