@@ -8,6 +8,7 @@ class ProgrammingLanguage:
         self.year = year
 
     def __str__(self):
+        """Displays the data for a programming language object."""
         return f"{self.name}, {self.typing}, Reflection={self.reflection}, First appeared in {self.year}"
 
     def is_dynamic(self):
