@@ -17,9 +17,9 @@ industry for me.
 
 ### 'Clean Code'
 
-- Simplicity is better than complex ([PEP20](https://peps.python.org/pep-0020/))
-- Even if a method works, if it is not the best tool for the job it shouldn't be used
-- Names should be able to distinguish what kind of data it is referring to
+- Simplicity is better than complex. ([PEP20](https://peps.python.org/pep-0020/))
+- Even if a method works, if it is not the best tool for the job it shouldn't be used.
+- Names should be able to distinguish what kind of data it is referring to.
 
 ## Important Links
 
