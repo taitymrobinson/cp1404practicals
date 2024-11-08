@@ -4,8 +4,7 @@ READING FILE
 Estimate (all parts): 1 hour 5:53
 Actual:
 """
-from prac_06.guitar import Guitar
-
+from guitar import Guitar
 
 def main():
     """Reads file of guitar details, storing as list of Guitar objects."""
@@ -17,6 +16,6 @@ def main():
             cost = float(parts[2])
             guitars.append(Guitar(parts[0], year, cost))
 
-    for guitar in guitars:
+    for guitar in sorted(guitars):
         print(guitar)
 main()
