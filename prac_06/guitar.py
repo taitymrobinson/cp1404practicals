@@ -28,3 +28,4 @@ class Guitar:
     def is_vintage(self):
         """Checks if the guitar is vintage."""
         return self.get_age() >= VINTAGE_AGE
+
