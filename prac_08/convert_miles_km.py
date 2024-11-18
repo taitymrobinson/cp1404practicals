@@ -2,7 +2,7 @@
 CP1404 - Practical 08
 DO FROM SCRATCH
 Estimate: 1.5 hours
-Actual:
+Actual: 42 minutes
 """
 
 from kivy.app import App
